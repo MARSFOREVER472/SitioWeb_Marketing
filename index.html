@@ -10,7 +10,79 @@
 </head>
 <body>
 
-    <h1>Hola Mundo!</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Logo</a>
+                <button 
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#contenidoMain"
+                    aria-controls="contenidoMain"
+                    aria-expanded="false"
+                    aria-label="Mostrar/Ocultar Navegación"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="contenidoMain">
+
+                    <!-- Enlaces -->
+
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inicio</a>
+                        </li>
+
+                        <!-- Dropdown -->
+
+                        <li class="nav-item dropdown">
+                            <a 
+                                href="#" 
+                                class="nav-link dropdown-toggle"
+                                id="submenuProductos"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Productos
+                            </a>
+
+                            <!-- Sub-elementos -->
+
+                            <ul class="dropdown-menu" aria-labelledby="subMenuProductos">
+                                <li><a href="#" class="dropdown-item">Computadoras</a></li>
+                                <li><a href="#" class="dropdown-item">Laptops</a></li>
+                                <li><a href="#" class="dropdown-item">Smartphones</a></li>
+                                <li><a href="#" class="dropdown-item">Drones</a></li>
+                                <li><a href="#" class="dropdown-item">Accesorios</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <!-- Formulario de Búsqueda -->
+
+                        <form action="" class="d-flex">
+                            <input
+                                type="text"
+                                class="form-control me-2"
+                                aria-label="Buscar"
+                                placeholder="Buscar"
+                            >
+
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     
