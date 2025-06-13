@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emprodemy</title>
+    <title>Comisiones Generadas</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" class="css">
 </head>
 <body>
 
@@ -175,63 +174,60 @@
                 </div>
             </div>
         </nav>
+        
     </header>
 
-        <div class="row py-5">
-            <div class="col">
-                <div class="border-bottom">
-                    <h1 class="text-center">Escritorio - Membresía Gratuita</h1>
-                </div>
-            </div>
-        </div>
 
     <main class="container">
 
-        <!--- Galería -->
-
         <div class="row py-5">
+
             <div class="col">
+
                 <div class="border-bottom">
-                    <h1 class="text-center">Boletín Digital</h1>
+
+                    <h1 class="text-center">Comisiones</h1>
+
                 </div>
+
             </div>
+
         </div>
 
-        <div class="row">
-            <div class="col-4 mb-5">
+        <div class="row mb-4">
+
+            <div class="col-12">
+
                 <div class="card">
-                    <h4 class="card-header text-center">Descargar Guía de Venta High Ticket</h4>
+
+                    <h3 class="card-header text-center">Comisiones Pagadas</h3>
+
                     <div class="card-body">
-                        <img class="card-img-bottom" src="img/Guía de venta.png" alt="">
-                        <a href="#" class="d-grid gap-2 col-6 mx-auto btn btn-md btn-primary">Ver Contenido</a>
+
+                        <div class="col-3">
+
+                            <label class="form-label"><strong>Mostrar</strong></label>
+
+                            <select name="show" id="show" class="form-select">
+
+                                <option value="10">10</option>
+                                <option value="25">25</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+
+                            </select>
+                        
+                        </div>
 
                     </div>
+            
                 </div>
-            </div>
 
-            <div class="col-4 mb-5">
-                <div class="card">
-                    <h4 class="card-header text-center">Accede a la Academia</h4>
-                    <div class="card-body">
-                        <img class="card-img-top" src="img/Academia.png" alt="">
-                        <a href="academia.html" class="d-grid gap-2 col-6 mx-auto btn btn-md btn-primary">Ver Contenido</a>
+           </div>
 
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-4 mb-5">
-                <div class="card">
-                    <h4 class="card-header text-center">Ingresa a la Comunidad</h4>
-                    <div class="card-body">
-                        <img class="card-img-bottom" src="img/Comunidad.png" alt="">
-                        <a href="comunidad-html" class="d-grid gap-2 col-6 mx-auto btn btn-md btn-primary">Ver Contenido</a>
-                    </div>
-                </div>
-            </div>
         </div>
 
-    </footer>
+    </main>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     

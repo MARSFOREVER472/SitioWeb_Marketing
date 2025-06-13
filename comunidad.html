@@ -111,11 +111,11 @@
                             <!-- Sub-elementos -->
 
                             <ul class="dropdown-menu" aria-labelledby="subMenuComisiones">
-                                <li><a href="#" class="dropdown-item">Generadas</a></li>
-                                <li><a href="#" class="dropdown-item">Liberadas</a></li>
-                                <li><a href="#" class="dropdown-item">Por confirmar</a></li>
-                                <li><a href="#" class="dropdown-item">Confirmadas</a></li>
-                                <li><a href="#" class="dropdown-item">Pagadas</a></li>
+                                <li><a href="generadas.html" class="dropdown-item">Generadas</a></li>
+                                <li><a href="liberadas.html" class="dropdown-item">Liberadas</a></li>
+                                <li><a href="confirmar.html" class="dropdown-item">Por confirmar</a></li>
+                                <li><a href="confirmadas.html" class="dropdown-item">Confirmadas</a></li>
+                                <li><a href="pagadas.html" class="dropdown-item">Pagadas</a></li>
                             </ul>
                         </li>
 
@@ -180,18 +180,48 @@
     <div class="row py-5">
             <div class="col">
                 <div class="border-bottom">
-                    <h1 class="text-center">Mi Comunidad!</h1>
+                    <h1 class="text-center">Mi Comunidad</h1>
                 </div>
             </div>
         </div>
 
     <main class="container">
         
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-6">
                 <a href="create_link.html" class="btn btn-primary">Enlace de Registro</a>
                 <a href="#" class="btn btn-secondary">Enlace de Afiliado</a>
             </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+
+                <div class="card">
+
+                    <h3 class="card-header text-center">Despliegue de Comunidad</h3>
+
+                    <div class="card-body">
+
+                        <div class="col-3">
+
+                            <label class="form-label"><strong>Mostrar</strong></label>
+
+                            <select name="show" id="show" class="form-select">
+
+                                <option value="10">10</option>
+                                <option value="25">25</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+
+                            </select>
+                        
+                        </div>
+
+                </div>
+            
+                </div>
+           </div>
         </div>
 
     </main>
