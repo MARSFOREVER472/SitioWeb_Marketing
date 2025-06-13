@@ -194,6 +194,56 @@
             </div>
         </div>
 
+        <div class="row">
+
+            <!-- Earnings (Monthly) Card Example -->
+
+            <div class="col-6 col-md-6 mb-4">
+
+                <div class="card border-left-success shadow h-100 py-2">
+
+                    <div class="card-body">
+
+                        <div class="row no-gutters align-items-center">
+
+                            <div class="col mr-2">
+
+                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Referidos Directos</div>
+
+                                <div class="h5 mb-0 font-weight-bold text-gray-800">0</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- Earnings (Monthly) Card Example -->
+
+            <div class="col-xl-6 col-md-6 mb-4">
+
+                <div class="card border-left-success shadow h-100 py-2">
+
+                    <div class="card-body">
+
+                        <div class="row no-gutters align-items-center">
+
+                            <div class="col mr-2">
+
+                                <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Comunidad</div>
+                                <div class="row no-gutters align-items-center"></div>
+                                <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">0</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row mb-4">
             <div class="col-12">
 
@@ -203,23 +253,99 @@
 
                     <div class="card-body">
 
-                        <div class="col-3">
+                        <div class="row">
 
-                            <label class="form-label"><strong>Mostrar</strong></label>
+                            <div class="col-6 mb-3">
 
-                            <select name="show" id="show" class="form-select">
+                                <label class="form-label"><strong>Mostrar</strong></label>
 
-                                <option value="10">10</option>
-                                <option value="25">25</option>
-                                <option value="50">50</option>
-                                <option value="100">100</option>
+                                <select name="show" id="show" class="form-select">
 
-                            </select>
-                        
+                                    <option value="10">10</option>
+                                    <option value="25">25</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+
+                                </select>
+
+                            </div>
+
+                            <div class="col-6 mb-3">
+
+                                <label for="search" class="form-label"><strong>Buscar</strong></label>
+                                <input type="search" class="form-control" placeholder="Introduce una búsqueda" id="search">
+
+                            </div>
+
                         </div>
 
-                </div>
+
+                        <div class="container">
+        
+                            <div class="row mt-4">
             
+                                <div class="col">
+                
+                                    <!-- Colores -->
+                                    <!-- Tenemos variantes disponibles para toda la tabla, toda una fila, o incluso una celda -->
+                                    <!--
+                                        .table-primary
+                                        .table-secondary
+                                        .table-success
+                                        .table-danger
+                                        .table-warning
+                                        .table-info
+
+                                        .table-light
+                                        .table-dark
+                                    -->
+
+                                    <!-- Clases de Tablas -->
+                                    <!-- Estas clases también están disponibles para los diferentes colores -->
+                                    <!-- 
+                                        .table-striped - Colorea en formato "zebra" para una mejor lectura.
+                                        .table-hover - Colorea las filas al pasar el cursor por toda la tabla.
+                                        .table-bordered - Agrega bordes a la tabla.
+                                        .border-danger - Colorea el borde.
+                                        .table-borderless - Quita los bordes.
+                                        .table-sm - Éste hace una tabla más compacta quitándole el padding a las celdas.
+                                    -->
+
+                                    <!-- Tabla Responsive -->
+                                    <!-- Podemos encerrar la tabla mediante un "div" con la clase .table-responsive para poder hacerla más responsive.-->
+
+                                    <div class="table-responsive">
+
+                                        <table class="table table-striped table-hover table-sm table-bordered">
+                                            <caption>Mostrando registros del 0 al 0 de un total de 0 registros</caption>
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Nombre</th>
+                                                    <th>Correo</th>
+                                                    <th>País</th>
+                                                    <th>Fecha de Registro</th>
+                                                    <th>Nivel</th>
+                                                    <th>Tipo</th>
+                                                    <th>Acciones</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <p><strong>Ningún dato disponible en esta tabla</strong></p>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 d-flex justify-content-center">
+
+                            <button class="btn disabled btn-md btn-outline-primary" type="previous">Anterior</button>
+                            <button class="btn disabled btn-md btn-outline-secondary" type="next">Siguiente</button>
+
+                        </div>
+                    </div>
                 </div>
            </div>
         </div>
