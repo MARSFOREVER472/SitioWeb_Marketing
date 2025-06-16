@@ -4,66 +4,252 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emprodemy</title>
+    <title>Regístrate ahora gratis!</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
+<header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                    <div class="sidebar-brand-icon"></div>
+                        
+                    <div class="sidebar-brand-text mx-3">
 
-    <section class="content">
+                        <img src="img/Logo_emprodemy-removebg-preview (1).png" width="50px" margin-left="auto">
 
-        <div class="container">
+                    </div>
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#contenidoMain"
+                    aria-controls="contenidoMain"
+                    aria-expanded="false"
+                    aria-label="Mostrar/Ocultar Navegación"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-          <div class="row">
+                <div class="collapse navbar-collapse" id="contenidoMain">
 
-            <div class="col-md-2"></div>
-              
-              <div class="col-md-8"></div>
+                    <!-- Enlaces -->
 
-                <div class="col-md-2"></div>
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item dropdown">
+                            <a 
+                                href="#" 
+                                class="nav-link dropdown-toggle"
+                                id="submenuAcademia"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Academia
+                            </a>
 
-          </div>
+                            <!-- Sub-elementos -->
 
+                            <ul class="dropdown-menu" aria-labelledby="subMenuAcademia">
+                                <li><a href="index.html" class="dropdown-item">Ver Academia</a></li>
+                            </ul>
+                        </li>
+                    
+                        <li class="nav-item dropdown">
+                            <a 
+                                href="#" 
+                                class="nav-link dropdown-toggle"
+                                id="submenuMembresia"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Membresia
+                            </a>
+
+                            <!-- Sub-elementos -->
+
+                            <ul class="dropdown-menu" aria-labelledby="subMenuMembresia">
+                                <li><a href="index.html" class="dropdown-item">Pagar</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a 
+                                href="#" 
+                                class="nav-link dropdown-toggle"
+                                id="subMenuComunidad"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Comunidad
+                            </a>
+
+                            <!-- Sub-elementos -->
+
+                            <ul class="dropdown-menu" aria-labelledby="subMenuComunidad">
+                                <li><a href="index.html" class="dropdown-item">Mi Comunidad</a></li>
+                            </ul>
+                        </li>
+                    
+                        <li class="nav-item dropdown">
+                            <a 
+                                href="#" 
+                                class="nav-link dropdown-toggle"
+                                id="submenuComisiones"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Comisiones
+                            </a>
+
+                            <!-- Sub-elementos -->
+
+                            <ul class="dropdown-menu" aria-labelledby="subMenuComisiones">
+                                <li><a href="index.html" class="dropdown-item">Generadas</a></li>
+                                <li><a href="index.html" class="dropdown-item">Liberadas</a></li>
+                                <li><a href="index.html" class="dropdown-item">Por confirmar</a></li>
+                                <li><a href="index.html" class="dropdown-item">Confirmadas</a></li>
+                                <li><a href="index.html" class="dropdown-item">Pagadas</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a 
+                                href="#" 
+                                class="nav-link dropdown-toggle"
+                                id="submenuEmprendeOnline"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                EmprendeOnline
+                            </a>
+
+                            <!-- Sub-elementos -->
+
+                            <ul class="dropdown-menu" aria-labelledby="subMenuEmprendeOnline">
+                                <li><a href="index.html" class="dropdown-item">Programa de afiliados</a></li>
+                            </ul>
+                        </li>
+                    
+                        <li class="nav-item dropdown">
+                            <a 
+                                href="#" 
+                                class="nav-link dropdown-toggle"
+                                id="subMenuTerminos"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Términos
+                            </a>
+
+                            <!-- Sub-elementos -->
+
+                            <ul class="dropdown-menu" aria-labelledby="subMenuTerminos">
+                                <li><a href="index.html" class="dropdown-item">Términos y condiciones</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Formulario de Búsqueda -->
+
+                        <form action="" class="d-flex">
+                            <input
+                                type="text"
+                                class="form-control me-2"
+                                aria-label="Buscar"
+                                placeholder="Buscar"
+                            >
+
+                        <button class="btn btn-primary" type="submit">Buscar</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        <div class="row py-5">
+            <div class="col">
+                <div class="border-bottom">
+                    <h1 class="text-center">Registro</h1>
+                </div>
+            </div>
         </div>
     </section>
 
-    <form action="Controllers/registro.php" method="post">
+    <div class="container">
 
-        <form>
-            <div class="row mb-3">
+        <div class="row">
 
-                <div class="col-6 align-items-center">
+            <div class="col mb-3">
 
-                    <label for="exampleInputEmail1" class="form-label">Nombre de Usuario</label>
-                    <input type="name" class="form-control" id="exampleInputName1" aria-describedby="username">
+                <form action="Controllers/registro.php" method="post">
 
-                    <div id="username" class="form-text">We'll never share your email with anyone else.</div>
+                    <form>
 
-                </div>
+                        <div class="card col-12 d-flex justify-content-center">
 
-            </div>
+                            <div class="card-body">
+        
+                                <div class="row mb-3 justify-content-center">
+
+                                    <div class="col-6 justify-content-center">
+
+                                        <label for="exampleInputEmail1" class="form-label">Nombre de Usuario</label>
+                                        <input type="name" class="form-control" id="exampleInputName1" aria-describedby="username">
+
+                                    </div>
+
+                                </div>
   
-            <div class="row mb-3">
+                                <div class="row mb-3 justify-content-center">
 
-                <div class="col-6 align-items-center">
+                                    <div class="col-6 justify-content-center">
 
-                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
 
-                </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-12 d-flex justify-content-center">
+
+                                        <div class="text-center">
+
+                                            <div class="form-check mb-3">
+
+                                                <input type="checkbox" name="terms" id="terms" class="form-check-input">
+                                                <label for="terms" class="form-check-label">Acepto los términos y condiciones de uso</label>
+
+                                            </div>
+
+                                            <button type="submit" class="col-12 btn btn-primary">Enviar</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </form>
+
+                </form>
 
             </div>
-
-                <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-
-        </form>
-
-    </form>
+        </div>
+    </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     
