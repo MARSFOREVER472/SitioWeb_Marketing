@@ -29,8 +29,39 @@
 
     <form action="Controllers/registro.php" method="post">
 
-        <label for="name1">Ingresa tu Nombre</label>
-        <input type="text" id="name1" name="name1" placeholder="Nombre">
+        <form>
+            <div class="row mb-3">
+
+                <div class="col-6 align-items-center">
+
+                    <label for="exampleInputEmail1" class="form-label">Nombre de Usuario</label>
+                    <input type="name" class="form-control" id="exampleInputName1" aria-describedby="username">
+
+                    <div id="username" class="form-text">We'll never share your email with anyone else.</div>
+
+                </div>
+
+            </div>
+  
+            <div class="row mb-3">
+
+                <div class="col-6 align-items-center">
+
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+
+                </div>
+
+            </div>
+
+                <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
 
     </form>
 
